@@ -1,3 +1,26 @@
+body {
+    background-color: #2e2e2e;
+  }
+  div#userSettings {
+      display: grid;
+      width: 400px;
+      margin: 0 auto 20px;
+  }
+  
+  select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  }
+
 .monsterCards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
