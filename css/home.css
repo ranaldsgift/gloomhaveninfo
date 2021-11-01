@@ -23,20 +23,24 @@ body {
 
 .monsterCards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: 200px 200px 200px 200px;
     grid-row-gap: 20px;
     width: 90%;
     height: 65%;
     margin: 0 auto;
     grid-column-gap: 20px;
+    border-radius: 13px;
 }
 
 .monsterCards .monsterCard {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.monsterCards .monsterCard:nth-child(1), .monsterCards .monsterCard:nth-child(2), .monsterCards .monsterCard:nth-child(3), .monsterCards .monsterCard:nth-child(4) {
+    justify-self: flex-end;
 }
 
 .ma-aa .monsterCards .monsterCard:nth-child(1) {
