@@ -30,7 +30,6 @@ body {
     height: 65%;
     margin: 0 auto;
     grid-column-gap: 20px;
-    border-radius: 13px;
 }
 
 .monsterCards .monsterCard {
@@ -38,6 +37,7 @@ body {
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 13px;
 }
 .monsterCards .monsterCard:nth-child(1), .monsterCards .monsterCard:nth-child(2), .monsterCards .monsterCard:nth-child(3), .monsterCards .monsterCard:nth-child(4) {
     justify-self: flex-end;
